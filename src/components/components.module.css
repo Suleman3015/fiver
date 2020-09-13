@@ -1,0 +1,96 @@
+* {
+}
+
+.head {
+  background: url("./cloud.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.headerSlogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  width: 60%;
+}
+
+.headerSlogan h1 {
+  background-color: red;
+  font-size: 2.9rem;
+  color: white;
+  align-items: center;
+}
+
+.headerSlogan p {
+  background-color: black;
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.bodyContent {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3%;
+  width: 70%;
+}
+
+.bodyContent h1 {
+  align-items: center;
+  background-color: lightgreen;
+
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .bodyContent {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+  }
+  .bodyContent h1 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+.maindiv {
+  background-color: #eeeff7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maindiv h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.cardDiv {
+  background-color: white;
+  display: flex;
+
+  width: 80vw;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .cardDiv {
+    display: flex;
+    flex-direction: column;
+
+    height: 50%;
+  }
+}
