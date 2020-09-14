@@ -6,14 +6,11 @@ import Cards from "./components/cards";
 import Footer from "./components/Footer";
 import Nav from "./components/naaav";
 import Ft from "./components/Footer2";
+import Boxes from "./components/boxes";
 function App() {
   return (
     <div>
-      <Nav />
-      <Head />
-      <CenterBody />
-      <Cards />
-      <Footer />
+      <Boxes />
     </div>
   );
 }

@@ -170,3 +170,7 @@
 .butn:hover {
   background: linear-gradient(57deg, #171a1a, #07b48f);
 }
+
+.ft {
+  background-color: #0e0e0e;
+}
